@@ -7,11 +7,11 @@ $grid-row-cells: 4;
 $tile-size: ($field-width - $grid-spacing * ($grid-row-cells + 1)) / $grid-row-cells;
 $tile-border-radius: 3px;
 
-$text-color: #776E65;
+$text-color: #f7a553;
 $bright-text-color: #f9f6f2;
 
-$tile-color: #eee4da;
-$tile-gold-color: #edc22e;
+$tile-color: #4d4d4d;
+$tile-gold-color: #ff2040;
 $tile-gold-glow-color: lighten($tile-gold-color, 15%);
 
 $game-container-background: #bbada0;
@@ -22,7 +22,7 @@ html, body {
   margin: 0;
   padding: 0;
 
-  background: #faf8ef;
+  background: #353535;
   color: $text-color;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
@@ -334,11 +334,11 @@ hr {
 
   // Colors for all 11 states, false = no special color
   $special-colors: false false, // 2
-                   false false, // 4
-                   #f78e48 true, // 8
-                   #fc5e2e true, // 16
-                   #ff3333 true, // 32
-                   #ff0000 true, // 64
+                   #bb2d00 true, // 4
+                   #488ef7 true, // 8
+                   #2e5efc true, // 16
+                   #3333ff true, // 32
+                   #0000ff true, // 64
                    false true, // 128
                    false true, // 256
                    false true, // 512
